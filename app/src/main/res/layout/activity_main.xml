@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.zachibuchriss.uliketest.Activities.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/ulike_android_dev_test"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <android.support.v7.widget.AppCompatButton
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pressBtn"
+        android:text="@string/action_button"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:background="@drawable/semi_transparent"
+        android:textColor="#145D88" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_action_list"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:id="@+id/open_action_list"
+        android:background="@drawable/semi_transparent"
+        android:padding="15dp"
+        android:textColor="#145D88"/>
+
+
+</LinearLayout>

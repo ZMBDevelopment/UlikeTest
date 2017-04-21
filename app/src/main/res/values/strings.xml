@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UlikeTest</string>
+    <string name="press">Press!</string>
+    <string name="open_action_list">Open Action List</string>
+    <string name="action_list">Action List</string>
+    <string name="never_used">Never used before</string>
+    <string name="action_button">Action Button</string>
+    <string name="ulike_android_dev_test">Ulike Android Dev Test</string>
+</resources>
